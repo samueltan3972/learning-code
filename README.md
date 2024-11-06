@@ -1,4 +1,4 @@
-# Learning COde
+# Learning Code
 
 TODO:
 1. Continue on 
