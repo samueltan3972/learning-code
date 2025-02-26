@@ -6,12 +6,12 @@ import 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCikcfL786AkxmBdvbFlOzX9RWoEHFoDE4",
-  authDomain: "webrtc-learn-5e875.firebaseapp.com",
-  projectId: "webrtc-learn-5e875",
-  storageBucket: "webrtc-learn-5e875.firebasestorage.app",
-  messagingSenderId: "164050647969",
-  appId: "1:164050647969:web:b676bd1f8119bb1a45a9e0"
+  apiKey: "apikey",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
@@ -41,7 +41,7 @@ const remoteVideo = document.getElementById('remoteVideo');
 const hangupButton = document.getElementById('hangupButton');
 
 // 1. Setup media sources
-webcamButton.onclick = async () = > {
+webcamButton.onclick = async () => {
   localStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true});
   remoteStream = new MediaStream();
 
