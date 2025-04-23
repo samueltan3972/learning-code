@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "build/clang14__x86_64-pc-linux-elf__release/CMakePresets.json"
+    ]
+}

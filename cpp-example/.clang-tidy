@@ -1,0 +1,14 @@
+AnalyzeTemporaryDtors: no
+
+Checks: 'clang-diagnostic-*, clang-analyzer-*, readability-*, *, -clang-analyzer-alpha.*,
+  -readability-redundant-member-init, -readability-convert-member-functions-to-static,
+  -modernize-use-trailing-return-type, -misc-macro-parentheses, -fuchsia-*, -altera-*,
+  -google-runtime-references, -llvmlibc-*,
+
+  '
+
+FormatStyle: google
+
+HeaderFilterRegex: ''
+
+WarningsAsErrors: ''
