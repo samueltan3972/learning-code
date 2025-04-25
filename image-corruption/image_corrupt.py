@@ -111,7 +111,6 @@ if __name__ == "__main__":
         for filename in os.listdir(folder_path)
         if filename.lower().endswith((".jpg", ".jpeg", ".png"))
     ]
-    # tasks = ["./image/corrupted_image/corrupted/20250310_090000_CN575F-JALAN-KUCHAI-LAMA.jpg"]
 
     with multiprocessing.Pool(processes=16) as pool:
         pool.map(handle_image_corruption, tasks)
